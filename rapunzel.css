@@ -1,4 +1,53 @@
-*{
-    background-color: rgb(142, 21, 255);
-    color: black;
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background: linear-gradient(135deg, rgb(142, 21, 255), rgb(200, 120, 255));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa principal */
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Títulos */
+h1 {
+    color: rgb(142, 21, 255);
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Imagem */
+img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
 }
